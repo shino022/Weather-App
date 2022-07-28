@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: grey;
+  img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  }
+  .container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cover {
+      background: rgba(0, 0, 0, 0.5);
+      width: 100vw;
+      height: 50vh;
+      text-align: center;
+      .temp{
+        color:white;
+        font-size: 230px;
+      }
+      .weather{
+        color:rgb(209, 209, 209);
+        font-size: 50px;
+      }
+    }
+  }
+  form {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+}
+
+.hidden {
+  display: none;
+}
+
+
